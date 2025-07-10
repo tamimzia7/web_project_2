@@ -1,4 +1,4 @@
-
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 .dancing-script-shape{
@@ -233,8 +233,36 @@ border: 1px solid #FFFFFF;
     grid-template-rows: auto;
   }
 
-    
+  .link-li {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100;
+  }
+
+  .link-li.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    position: relative;
+  }
+  .manu-style{
+    color: #FFFFFF;
+  }
 }
+
+    
+
 
 @media screen and (min-width: 576px) and (max-width: 996px) {
   .display-flex {
@@ -279,4 +307,4 @@ border: 1px solid #FFFFFF;
   }
 }
 
-
+ */
